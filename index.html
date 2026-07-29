@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — UPPSC Prep</title>
+  <style>
+    :root {
+      --navy: #0F1F33;
+      --saffron: #F08D3C;
+      --cream: #FAF0DC;
+      --text: #1c2836;
+      --muted: #5a6a7d;
+      --border: #dfe4ea;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+      color: var(--text);
+      line-height: 1.7;
+      background: #fff;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 0 0 8px;
+      color: var(--navy);
+      letter-spacing: -0.5px;
+    }
+    h2 {
+      font-size: 22px;
+      color: var(--navy);
+      margin-top: 40px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--saffron);
+    }
+    h3 {
+      font-size: 17px;
+      color: var(--navy);
+      margin-top: 24px;
+    }
+    p { margin: 12px 0; }
+    ul { padding-left: 22px; }
+    li { margin: 6px 0; }
+    a { color: #b25f18; text-decoration: underline; }
+    code {
+      background: #f2f4f7;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 32px;
+    }
+    .footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+  </style>
+</head>
+<body>
+
+<h1>Privacy Policy — UPPSC Prep</h1>
+<p class="meta"><strong>Last updated:</strong> 29 July 2026</p>
+
+<p>This Privacy Policy describes how the mobile application <strong>UPPSC Prep — GS in 30 Days</strong> (package name <code>com.uppscprep.flutter_app</code>, hereafter "the App", "we", or "us") handles information when you use it.</p>
+
+<p>We built the App to be an offline-first study tool. We do not want your data. This policy explains — in plain language — the very limited ways any data ever leaves your device.</p>
+
+<hr>
+
+<h2>1. Information we do NOT collect</h2>
+<p>The App does not collect, store, transmit, or share any of the following:</p>
+<ul>
+  <li>Your name, email address, phone number, or any account credentials</li>
+  <li>Your location (GPS or otherwise)</li>
+  <li>Your contacts, calendar, photos, camera, or microphone</li>
+  <li>Your device identifier (Advertising ID, IMEI, MAC address)</li>
+  <li>Your usage analytics, session times, or in-app behaviour</li>
+  <li>Crash reports or diagnostic logs</li>
+  <li>Any personally identifiable information</li>
+</ul>
+<p>We have no user accounts. There is no login, no sign-up, no profile. Your progress data — quiz answers, streaks, day completions, saved bookmarks, notes, reading history, font-size preference, and language toggle — is stored <strong>only on your device</strong>, inside the App's local Hive database. When you uninstall the App, that data is deleted with it.</p>
+
+<h2>2. Information that leaves your device</h2>
+<p>The App makes a limited number of network requests that involve third parties. In each case, we describe below what leaves the device and why.</p>
+
+<h3>2.1 Google Fonts</h3>
+<p>The App uses the <code>google_fonts</code> package to render its typography (Fraunces serif for English, Noto Serif Devanagari for Hindi). On first use, the App requests these font files from Google's Fonts CDN (<code>fonts.gstatic.com</code>). During that request, your device's <strong>IP address</strong> and <strong>user-agent string</strong> are visible to Google, as is normal for any HTTPS web request. Fonts are then cached locally; subsequent App launches do not repeat the request.</p>
+<p>Google's handling of these requests is governed by Google's own privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</p>
+<p>We do not send Google any identifiable information about you. We only request font files.</p>
+
+<h3>2.2 Google Play In-App Purchases</h3>
+<p>If you choose to purchase the one-time UPPSC Pro unlock (₹149), the purchase is processed by <strong>Google Play Billing</strong>. We never see or store your payment information. Google Play tells the App only whether the purchase succeeded or failed, and provides an anonymous purchase token so the App can restore your unlock if you reinstall. Google's handling of your payment data is governed by Google's privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</p>
+
+<h3>2.3 Google Play Services (integrity check)</h3>
+<p>On release-build launches, the App performs a signature verification to detect whether it has been re-signed by a third party (an anti-tampering check). This uses standard Android platform APIs and does not send any request off-device.</p>
+
+<h3>2.4 No advertising, no tracking</h3>
+<p>The App does not display ads. There is no advertising SDK, no analytics SDK, no crash-reporting SDK, and no marketing pixel. We do not use cookies. We do not fingerprint your device.</p>
+
+<h2>3. Data stored on your device</h2>
+<p>The following data is written locally by the App and never leaves your device:</p>
+<ul>
+  <li>Your progress on the 30-Day GS Course (which days are complete, per-day accuracy, MCQs attempted/correct)</li>
+  <li>MCQ session history (answers, timestamps, bookmarks)</li>
+  <li>Reading lesson state (current position, font-size preference, language mode — EN, हिं, or Both)</li>
+  <li>Your name and target exam date (only if you entered them during onboarding — these never leave your device)</li>
+  <li>Purchase status (whether you have unlocked UPPSC Pro)</li>
+  <li>App preferences (walkthrough completion flag, streak history)</li>
+</ul>
+<p>To delete this data, uninstall the App.</p>
+
+<h2>4. Children's privacy</h2>
+<p>The App is intended for adults preparing for the UPPSC PCS (Uttar Pradesh Public Service Commission) examination, which typically has a minimum age of 21 for candidates. The App is not directed at children under the age of 13. We do not knowingly collect any information from children.</p>
+
+<h2>5. Permissions requested</h2>
+<p>The App requests the following Android permissions:</p>
+<ul>
+  <li><strong>INTERNET</strong> — required for Google Fonts (Section 2.1) and Google Play Billing (Section 2.2). No other network activity occurs.</li>
+  <li><strong>RECEIVE_BOOT_COMPLETED</strong> and <strong>SCHEDULE_EXACT_ALARM</strong> (via <code>flutter_local_notifications</code>) — used only to schedule local daily-study-reminder notifications on your device. No notification content ever leaves your device.</li>
+</ul>
+<p>The App does not request access to your contacts, camera, microphone, location, storage, calendar, or any other sensitive permission.</p>
+
+<h2>6. Changes to this policy</h2>
+<p>If we materially change how the App handles data, we will update this policy, revise the "Last updated" date, and — if the change is significant — surface a notice on the App's next launch. Continued use of the App after such changes constitutes acceptance of the updated policy.</p>
+
+<h2>7. Contact</h2>
+<p>If you have questions about this policy, or about how the App handles data, write to us:</p>
+<p><strong>Email:</strong> <a href="mailto:kkshuklamne@gmail.com">kkshuklamne@gmail.com</a></p>
+<p>We read every message.</p>
+
+<h2>8. Governing law</h2>
+<p>This policy is provided by the App's developer as an individual publisher, and is governed by the laws of India.</p>
+
+<div class="footer">
+  © 2026 UPPSC Prep · Package <code>com.uppscprep.flutter_app</code>
+</div>
+
+</body>
+</html>
